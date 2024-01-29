@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Drums🥁</title>
+</head>
+<body>
+    <link rel="stylesheet" href="drums.css">
+    <div class="d1"><h1>TRums ig</h1></div>
+    <div class="whole">
+        <div>
+            <img src="Assets\crash.png" id="img1" onclick="playaudio('./Assets/audio4.wav')">
+        </div>
+        <div>
+            <img src="Assets\tom3.png" id="img2" onclick="playaudio('./Assets/audio2.wav')">
+        </div>
+        <div>
+            <img src="Assets\tom1.png" id="img3" onclick="playaudio('./Assets/audio3.wav')">
+        </div>
+        <div>
+            <img src="Assets\tom2.png" id="img4" onclick="playaudio('./Assets/audio4.wav')">
+        </div>
+        <div>
+            <img src="Assets\tom4.png" id="img5" onclick="playaudio('./Assets/audio5.wav')">
+        </div>
+        <div>
+            <img src="Assets\kick.png" id="img6" onclick="playaudio('./Assets/audio7.wav')">
+        </div>
+
+    </div>
+
+    <script>
+        function playaudio(url) {
+
+            new Audio(url).play();
+        }
+    </script>
+    
+</body>
+</html>

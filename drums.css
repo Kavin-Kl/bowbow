@@ -1,0 +1,53 @@
+.whole{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    border-top: 85%;
+    margin-top: 15%;
+}
+.d1{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#img1{
+    height: 210px;
+    width: 120px;
+}
+#img2{
+    height: 120px;
+    width: 120px;
+}
+#img3{
+    height: 120px;
+    width: 120px;
+}
+#img4{
+    height: 120px;
+    width: 120px;
+}
+#img5{
+    height: 120px;
+    width: 120px;
+}
+#img6{
+    height: 120px;
+    width: 120px;
+}
+
+h1{
+    font-family: fantasy;
+    color: gold;
+    letter-spacing: 8px;
+    text-align: center;
+    text-decoration: wavy
+}
+
